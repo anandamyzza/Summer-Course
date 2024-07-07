@@ -37,3 +37,6 @@ Open your web browser and navigate to http://127.0.0.1:5000/ to view the data vi
 You can access the Google Colab notebook used for data analysis and initial data preparation [here](https://colab.research.google.com/drive/1tfkHJZSyuctcJet-qifhphA6F3sZiqw0?usp=sharing).
 
 ## Preview Video of the flask-based web
+
+https://github.com/anandamyzza/Summer-Course/assets/147605722/a3593791-68ca-4c77-96ca-a2ffda8d4e6e
+
