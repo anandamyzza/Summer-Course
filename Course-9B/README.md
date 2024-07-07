@@ -1,3 +1,7 @@
+# Assignment 1 Group 1
+- 2100702 Ananda Myzza Marhelio
+- 2101294 Fikry Idham Dwiyana
+
 # Waste Generation Data Visualization in Indonesia
 
 This project utilizes Flask to create visualizations of waste generation data in Indonesia based on province and category. The data used is sourced from the [National Waste Management Information System (SIPS) of the Ministry of Environment and Forestry](https://sipsn.menlhk.go.id/sipsn/public/data/timbulan) and is stored in waste_data.xlsx.
