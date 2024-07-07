@@ -1,6 +1,6 @@
 # Visualisasi Data Timbulan Sampah di Indonesia
 
-Proyek ini menggunakan Flask untuk membuat visualisasi data timbulan sampah di Indonesia berdasarkan provinsi dan kategori. Data yang digunakan diambil dari [Sistem Informasi Pengelolaan Sampah Nasional (SIPS) Kementerian Lingkungan Hidup dan Kehutanan](https://sipsn.menlhk.go.id/sipsn/public/data/timbulan).
+Proyek ini menggunakan Flask untuk membuat visualisasi data timbulan sampah di Indonesia berdasarkan provinsi dan kategori. Data yang digunakan diambil dari [Sistem Informasi Pengelolaan Sampah Nasional (SIPS) Kementerian Lingkungan Hidup dan Kehutanan](https://sipsn.menlhk.go.id/sipsn/public/data/timbulan) yang disimpan dalam waste_data.xlsx.
 
 ## Deskripsi Proyek
 
