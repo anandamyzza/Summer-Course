@@ -1,4 +1,4 @@
-# Assignment 1 Group 1
+## Assignment 1 Group 1
 - 2100702 Ananda Myzza Marhelio
 - 2101294 Fikry Idham Dwiyana
 
