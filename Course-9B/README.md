@@ -34,4 +34,4 @@ Buka browser dan akses `http://127.0.0.1:5000/` untuk melihat visualisasi data.
 
 ## Google Colab
 
-Anda dapat mengakses notebook Google Colab yang digunakan untuk analisis dan persiapan data [di sini](https://colab.research.google.com/drive/1tfkHJZSyuctcJet-qifhphA6F3sZiqw0?usp=sharing).
+Anda dapat mengakses notebook Google Colab yang digunakan untuk analisis dan persiapan data awal [di sini](https://colab.research.google.com/drive/1tfkHJZSyuctcJet-qifhphA6F3sZiqw0?usp=sharing).
