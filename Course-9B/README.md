@@ -1,37 +1,37 @@
-# Visualisasi Data Timbulan Sampah di Indonesia
+# Waste Generation Data Visualization in Indonesia
 
-Proyek ini menggunakan Flask untuk membuat visualisasi data timbulan sampah di Indonesia berdasarkan provinsi dan kategori. Data yang digunakan diambil dari [Sistem Informasi Pengelolaan Sampah Nasional (SIPS) Kementerian Lingkungan Hidup dan Kehutanan](https://sipsn.menlhk.go.id/sipsn/public/data/timbulan) yang disimpan dalam waste_data.xlsx.
+This project utilizes Flask to create visualizations of waste generation data in Indonesia based on province and category. The data used is sourced from the [National Waste Management Information System (SIPS) of the Ministry of Environment and Forestry](https://sipsn.menlhk.go.id/sipsn/public/data/timbulan) and is stored in waste_data.xlsx.
 
-## Deskripsi Proyek
+## Project Description
 
-Proyek ini memanfaatkan Flask sebagai framework web untuk menyajikan visualisasi data dalam bentuk grafik menggunakan Matplotlib dan Seaborn. Terdapat beberapa fitur utama:
+This project leverages Flask as a web framework to present data visualizations in the form of graphs using Matplotlib and Seaborn. It includes several key features:
 
-- **Visualisasi Berdasarkan Pulau**: Pengguna dapat memilih pulau (Jawa, Sumatra, Kalimantan, Sulawesi, Maluku & Papua, Bali & Nusa Tenggara) untuk melihat grafik jumlah timbulan sampah tahunan dari provinsi-provinsi di pulau tersebut.
-- **Grafik Kategori Sampah**: Grafik ini menunjukkan kategori provinsi-provinsi berdasarkan rata-rata timbulan sampah tahunan, diwarnai sesuai dengan kategori (Hijau, Orange, Merah).
-- **Jumlah Provinsi per Kategori**: Grafik ini menunjukkan jumlah provinsi yang masuk ke dalam setiap kategori sampah (Hijau, Orange, Merah).
+- **Island-Based Visualization**: Users can select an island (Java, Sumatra, Kalimantan, Sulawesi, Maluku & Papua, Bali & Nusa Tenggara) to view graphs showing the annual waste generation from provinces within that island.
+- **Waste Category Graphs**: These graphs depict the categorization of provinces based on average annual waste generation, color-coded by category (Green, Orange, Red).
+- **Province Count per Category**: This graph illustrates the number of provinces falling into each waste category (Green, Orange, Red).
 
 ## Setup
 
-Untuk menjalankan proyek ini secara lokal, ikuti langkah-langkah berikut:
+To run this project locally, follow these steps:
 
-1. **Instalasi Dependencies**:
-   Pastikan Anda telah menginstal Python dan pip. Kemudian, instal semua dependencies yang dibutuhkan dengan menjalankan perintah berikut di terminal:
+1. **Install Dependencies**:
+   Ensure Python and pip are installed. Then, install all required dependencies by running the following command in your terminal:
 
-2. **Menjalankan Flask**:
-Jalankan aplikasi Flask dengan menjalankan perintah berikut di terminal:
+2. **Run Flask Application**:
+Launch the Flask application by executing the following command in your terminal:
 
-Aplikasi akan berjalan di `http://127.0.0.1:5000/`.
+The application will run at `http://127.0.0.1:5000/`.
 
-3. **Akses Aplikasi**:
-Buka browser dan akses `http://127.0.0.1:5000/` untuk melihat visualisasi data.
+3. **Access the Application**:
+Open your web browser and navigate to http://127.0.0.1:5000/ to view the data visualizations.
 
-## Struktur Proyek
+## Project Structure
 
-- `app.py`: Berkas utama Flask yang berisi definisi aplikasi dan rute-rute API.
-- `data/waste_data.xlsx`: Berkas Excel yang berisi data timbulan sampah per provinsi dan tahun.
-- `templates/index.html`: Template HTML untuk tampilan utama aplikasi.
-- `static/js/script.js`: Berkas JavaScript untuk meng-handle permintaan dan menampilkan grafik-grafik.
+- `app.py`: The main Flask file containing application definitions and API routes.
+- `data/waste_data.xlsx`: Excel file containing waste generation data per province and year.
+- `templates/index.html`: HTML template for the main application view.
+- `static/js/script.js`: JavaScript file to handle requests and display charts.
 
 ## Google Colab
 
-Anda dapat mengakses notebook Google Colab yang digunakan untuk analisis dan persiapan data awal [di sini](https://colab.research.google.com/drive/1tfkHJZSyuctcJet-qifhphA6F3sZiqw0?usp=sharing).
+You can access the Google Colab notebook used for data analysis and initial data preparation [here](https://colab.research.google.com/drive/1tfkHJZSyuctcJet-qifhphA6F3sZiqw0?usp=sharing).
