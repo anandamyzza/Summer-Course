@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Data Visualizations</title>
+</head>
+<body>
+    <h1>Data Visualizations</h1>
+    <div>
+        <button id="jawaButton">Jawa</button>
+        <button id="sumatraButton">Sumatra</button>
+        <button id="kalimantanButton">Kalimantan</button>
+        <button id="sulawesiButton">Sulawesi</button>
+        <button id="malukuPapuaButton">Maluku dan Papua</button>
+        <button id="baliNusaTenggaraButton">Bali dan Nusa Tenggara</button>
+    </div>
+    <div>
+        <img id="islandPlot" src="" alt="Island Plot" width="800" height="600">
+    </div>
+    <div>
+        <h2>Jumlah Provinsi Berdasarkan Kategori Sampah</h2>
+        <img id="provinceCategoriesPlot" src="" alt="Province Categories Plot" width="800" height="600">
+    </div>
+    <div>
+        <!-- <h2>Kategori Timbulan Sampah Tahunan per Provinsi</h2>
+        <img id="provinceCountsPlot" src="" alt="Province Counts Plot" width="800" height="600"> -->
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="{{ url_for('static', filename='js/script.js') }}"></script>
+</body>
+</html>
